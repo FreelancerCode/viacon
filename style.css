@@ -1,0 +1,308 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+body {
+	font-family: Tahoma;
+}
+
+img {
+	border: none;
+}
+
+.karkas {
+	min-width: 970px;
+	max-width: 1280px;
+	margin: 0 auto;
+	position: relative;
+
+}
+
+.header-main {
+	background: url(images/head_bg_main.jpg) left top repeat-x;
+	height: 181px;
+}
+
+.header {
+	background: url(images/head_bg_road.png) left top no-repeat;
+	height: 181px;
+	position: relative;
+}
+
+.ico{
+	float: left;
+	margin: 30px 0 0 18px;
+}
+
+.ico li {
+	padding-bottom: 20px;
+	}
+
+.head-form {
+	overflow: hidden;
+	float: right;
+	background: #eee;
+	padding: 10px 90px 10px 30px;
+	border-radius: 0 0 0 10px;
+}
+
+.head-form input {
+	float: left;
+}
+
+.search-form {
+	border: 1px solid #a5acb2;
+	background: #fff;
+	width: 130px;
+	height: 20px;
+	margin-right: 12px;
+	padding-left: 2px;
+	line-height: 1;
+}
+
+.menu {
+	overflow: hidden;
+	position: absolute;
+	top: 90px;
+	right: 0;
+	border-bottom: 3px solid #93b0c8;
+	padding: 0 81px 2px 0;
+}
+
+.menu li{
+	float: left;
+	border-left: 2px solid #ebf0f5;
+	padding: 0 9px 0px 9px;
+	font-family: 'Trebuchet MS';
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 1;
+	text-transform: uppercase;	
+}
+
+.menu li:first-child {
+	border-left: none;
+	padding-left: 3px;
+}
+
+.menu li a {
+	color: #ebf0f5;
+	text-decoration: none;
+}
+
+.menu li a:hover {
+	text-decoration: underline;
+	color: #8bb09e;
+}
+
+
+.content-under {
+	background: url(images/content_bg_under.png) top left repeat-x ;
+}
+
+.content-main {
+	width: 100%;
+	background: url(images/content_bg.png) top right -1px  no-repeat;
+}
+
+.logo {
+	text-align: right;
+	margin: 10px 0 15px 0;
+}
+
+.content {
+	padding: 0 55px 0 30px;
+	vertical-align: top;
+	margin: 0;
+}
+.content h1 {
+	font: normal 24px "Trebuchet MS";
+	color: #1c56a0;
+}
+
+.content p {
+	font-size: 12px;
+	text-align: justify;
+	color: #313131;
+	margin: 10px 0 20px 0;
+}
+
+p.print {
+	text-align: right;
+	font: normal 10px "Trebuchet MS";
+	margin: 10px 0 30px 0;
+}
+
+.print a {		
+	color: #1c56a0;
+}
+
+.print a:hover {
+	text-decoration: none;
+	color: #8bb09e;
+}
+
+.print img {
+	position: relative;
+	top: 7px;
+	margin:  0 0 0 2px;
+}
+
+.right-bar {
+	width: 467px;
+	vertical-align: top;
+	padding: 0 38px 0 0;
+}
+
+.right-zag {
+	background: url(images/right_zag_bg.png) top left no-repeat;
+	margin: -49px 0 0 -7px;
+	z-index: 100;
+	position: relative;
+	padding: 20px 0 10px 16px;
+	text-decoration: underline;
+	font: normal 18px "Trebuchet MS";
+	color: #1c56a0;
+}
+
+.product-main {
+	overflow: hidden;
+	margin: 20px 20px 0 0;
+}
+
+.product-main img {
+	float: left;
+	margin: 0 12px 0 0;
+}
+
+.product-main h1 {
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 1.1;
+	margin: 0 0 0 184px;
+}
+
+.product-main h1 a {
+	color: #1c56a0;
+}
+
+.product-main h1 a:hover {
+	text-decoration: none;
+	color: #8bb09e;
+}
+
+.product-main p {
+	font-size: 10px;
+	color: #313131;
+	margin: 0 0 0 184px;
+	line-height: 1.1;
+}
+
+.all-products {
+	text-align: right;
+	font: bold 10px "Trebuchet MS";
+	margin: 20px 20px 0 0;
+	border-top: 1px solid #c9d7e8;
+}
+
+.all-products a {
+	color: #1c56a0;
+}
+
+.all-products a:hover {
+	text-decoration: none;
+	color: #8bb09e;
+}
+
+.right-bot {
+	vertical-align: bottom;
+}
+
+.contact {
+	position: relative;
+	text-align: right;
+	margin: 26px 0px 0 0;
+	padding: 0 58px 240px 0;
+	background: url(images/contact_bg.jpg) right bottom no-repeat;
+} 
+
+.contact h3 {
+	font: normal 12px "Trebuchet MS";
+	color: #1c56a0;
+	line-height: 1.1;
+}
+
+.contact img {
+	margin: 5px 0 22px 0;
+}
+
+.contact p {
+	font-size: 11px;
+	color: #3d3d3d;
+	line-height: 1.1;
+	margin: 0 5px 0 0;
+}
+
+.contact p span {
+	color: #1c56a0;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.contact p a {
+	color: #1c56a0;
+}
+
+.contact p a:hover {
+	text-decoration: none;
+	color: #8bb09e;
+}
+
+img.toper {
+	margin: 0;
+	position: absolute;
+	bottom: 2px;
+	right: 35px;
+}
+
+.footer {
+	overflow: hidden;
+	padding: 20px 7% 0 0;
+	background: #eee;
+}
+
+.atstar {
+	float: left;
+	margin: 18px 0 0 4.5%;
+}
+
+.copy {
+	float: left;
+	text-align: right;
+	font-size: 11px;
+	color: #6d6e71;
+	line-height: 1.1;
+	margin: 18px 0 0 30%;
+}
+
+.copy a {
+	color: #1c56a0;
+}
+
+.copy a:hover {
+	text-decoration: none;
+	color: #8bb09e;
+}
+
+.ftr-link {
+	float: right;
+	padding: 0 0 2px 0;
+}
+
+.ftr-link img {
+	margin: 0 8px 8px 0;
+}
+
+
